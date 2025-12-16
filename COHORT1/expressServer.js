@@ -8,3 +8,6 @@ server.get('/home',(req,res)=>{
 server.listen(3000, ()=>[
     console.log("server start")
 ])
+
+
+
