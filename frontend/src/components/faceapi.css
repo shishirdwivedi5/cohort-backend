@@ -1,0 +1,44 @@
+.camera-card {
+ background-color:  #142d4c;
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.camera-box {
+  width: 400px;
+  height: 260px;
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  overflow: hidden;
+ 
+}
+
+.camera-box video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.camera-btn {
+  background: var(--primary);
+  color: rgb(8, 8, 8);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.camera-btn:hover {
+  opacity: 0.9;
+}
